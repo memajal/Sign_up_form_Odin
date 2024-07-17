@@ -1,0 +1,33 @@
+﻿
+@import '../Css_Normalize/node_modules/modern-normalize/modern-normalize.css';
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+
+/* container divide in 2 parts respectivly 28%, and 45%*/
+#container{
+    display:flex;
+    justify-content:center;
+}
+
+#image_container {
+    border: 5px solid red;
+    width:28%;
+ 
+}
+
+#image_container img {
+    width:100%;
+    height: 99vh;
+}
+
+#form_container {
+    border: 5px solid red;
+    width: 45%;
+}
+
+
+
