@@ -68,6 +68,18 @@ h1, h2, h3, h4, h5 {
     font-family:logo_font, sans-serif;
 }
 
+#image_container span{
+    position:absolute;
+    bottom: 30px;
+    left:22%;
+    color:white;
+    font-size:11px;
+}
+
+#image_container a {
+    color:white;
+}
+
 
 
 
