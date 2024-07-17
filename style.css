@@ -1,9 +1,25 @@
 ﻿
 @import '../Css_Normalize/node_modules/modern-normalize/modern-normalize.css';
 
+@font-face {
+    font-family: "logo_font";
+    src: url("Norse-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 img {
     display: block;
     max-inline-size: 100%;
+}
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 
@@ -14,8 +30,7 @@ img {
 }
 
 #image_container {
-    border: 5px solid red;
-    width:28%;
+    width:25%;
  
 }
 
@@ -28,6 +43,32 @@ img {
     border: 5px solid red;
     width: 45%;
 }
+
+
+#odin_logo {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 25%;
+    height:120px;
+    position: absolute;
+    top: 150px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+#odin_logo img{
+    width:80px;
+    height:100px;
+}
+
+#odin_logo h1{
+    font-size:70px;
+    font-family:logo_font, sans-serif;
+}
+
+
 
 
 
